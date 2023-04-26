@@ -1,9 +1,41 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <img src="images/logo.png">
-        <script src="index.js"></script>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img class="logo" src="images/logo.png">
+            <img class="avatar user" src="images/user-avatar.png">
+        </header>
+
+        <section class="top-section">
+            <img class="avatar vangogh" src="images/avatar-vangogh.jpg">
+            <div class="poster-info">
+                <h2 id="name">Vincent van Gogh</h2>
+                <p id="location"> Zoidberg, Netherlands </p>
+            </div>
+        </section>
+
+        <section class="main-img">
+            <img class="post" src="images/post-vangogh.jpg">
+        </section>
+
+        <section class="activities">
+            <div class="actions">
+                <img class="icon" src="images/icon-heart.png">
+                <img class="icon" src="images/icon-dm.png">
+                <img class="icon" src="images/icon-comment.png">
+            </div>
+            <h3 id="likes">69,420</h3>
+            <p id="comment"><span id="username">vincey1853</span> just took a few mushrooms lol</p>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
 </html>

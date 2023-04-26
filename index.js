@@ -28,3 +28,9 @@ const posts = [
     }
 ]
 
+const name = document.getElementById("name")
+const location = document.getElementById("location")
+const likes = document.getElementById("likes")
+const username = document.getElementById("username")
+const comment = document.getElementById("comment")
+
